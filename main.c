@@ -43,6 +43,7 @@ void goToInstructions();
 int hit;
 int kills;
 int time;
+int cheat;
 // States
 enum
 {
@@ -114,6 +115,7 @@ void initialize()
     hit = 0;
     kills = 0;
     time = -1;
+    cheat = 0;
     setupSounds();
 	setupInterrupts();
     goToStart();
